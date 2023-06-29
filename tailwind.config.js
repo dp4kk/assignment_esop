@@ -20,6 +20,7 @@ export default {
         'slide-bg':'slide-bg 0.5s ease-in-out forwards'
       }
     },
+    
   },
   plugins: [require('daisyui')],
 };
