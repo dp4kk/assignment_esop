@@ -31,7 +31,7 @@ const Welcome = () => {
                 children.
               </p>
               <div className="mt-8 w-full">
-                <a className="relative z-1 flex items-center gap-[10px] px-[15px] py-[10px] min-w-[125px] max-w-max h-[42px]    rounded-full text-primary-color bg-transparent border border-[#242d69] text-center transition duration-300 ease-in-out group hover:text-white hover:bg-[#242d69] ">
+                <a className="relative z-1 flex items-center gap-[10px] px-[15px] py-[10px] min-w-[125px] max-w-max h-[42px]    rounded-full text-primary-color bg-transparent border border-[#242d69] text-center transition duration-300 ease-in-out group hover:text-white hover:bg-[#242d69] hover:cursor-pointer">
                   Learn more
                   <div className=" bg-[#c19753] w-8 h-8 rounded-full group-hover:translate-x-4 group-hover:w-10 group-hover:h-10 flex justify-center items-center">
                     <span className=" text-white ">→</span>
