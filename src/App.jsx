@@ -5,10 +5,11 @@ import ParentSpeak from './components/ParentSpeak'
 import Infrastructure from './components/Infrastructure'
 import Collaboration from './components/Collaboration'
 import Welcome from './components/Welcome'
+import Happenings from './components/Happenings'
 function App() {
  
   return (
-    <Welcome/>
+    <Happenings/>
   );
 }
 
