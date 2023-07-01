@@ -6,10 +6,11 @@ import Infrastructure from './components/Infrastructure'
 import Collaboration from './components/Collaboration'
 import Welcome from './components/Welcome'
 import Happenings from './components/Happenings'
+import Main from './components/Main'
 function App() {
  
   return (
-    <Happenings/>
+    <Main/>
   );
 }
 
