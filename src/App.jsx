@@ -10,7 +10,17 @@ import Main from './components/Main'
 function App() {
  
   return (
+    <>
+    <Topbar/>
     <Main/>
+    <Welcome/>
+    <Happenings/>
+    <Collaboration/>
+    <Infrastructure/>
+    <ParentSpeak/>
+    <Footer/>
+    </>
+
   );
 }
 

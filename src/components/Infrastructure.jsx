@@ -65,7 +65,7 @@ const infrastructures = [
 
 const Infrastructure = () => {
   return (
-    <div className="bg-[url('https://ecorp.co.in/educations/ihs/images/ganesha.jpg')] bg-center bg-cover bg-no-repeat absolute w-full h-screen  inset-0 ">
+    <div className="bg-[url('https://ecorp.co.in/educations/ihs/images/ganesha.jpg')] bg-center bg-cover bg-no-repeat relative w-full h-screen  inset-0 ">
       <div className="backdrop-brightness-50 w-full h-screen py-8">
         <div className="text-center mb-8 ">
           <p className="text-white text-4xl font-semibold">Infrastructure</p>
