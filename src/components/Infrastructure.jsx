@@ -65,31 +65,32 @@ const infrastructures = [
 
 const Infrastructure = () => {
   return (
-    <div className="bg-[url('https://ecorp.co.in/educations/ihs/images/ganesha.jpg')] bg-center bg-cover bg-no-repeat relative w-full h-screen  inset-0 ">
-      <div className="backdrop-brightness-50 w-full h-screen py-8">
-        <div className="text-center mb-8 ">
-          <p className="text-white text-4xl font-semibold">Infrastructure</p>
-        </div>
-        <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-5 justify-items-center items-center ">
-          {infrastructures.map((item, index) => {
-            return (
-              <div
-                key={index}
-                className="w-[280px]  flex justify-center py-10 group hover:bg-white "
-              >
-                <div className="text-white text-center group-hover:text-black">
-                  <img
-                    src={item.icon}
-                    className="invert w-[60px] p-15 mx-auto mb-[10px] filter brightness-55 transition-all duration-300 ease-in-out group-hover:invert-0"
-                  />
-                  <span className="uppercase">{item.name}</span>
+    <div className="relative box-border w-full  bg-[url('https://ecorp.co.in/educations/ihs/images/ganesha.jpg')] bg-center bg-cover bg-no-repeat ">
+        <div className=" w-full  bg-black bg-opacity-70 p-24">
+          <div className="text-center mb-8 ">
+            <p className="text-white text-4xl font-semibold">Infrastructure</p>
+          </div>
+          <div className="grid grid-cols-2 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-5 justify-items-center items-center ">
+            {infrastructures.map((item, index) => {
+              return (
+                <div
+                  key={index}
+                  className="w-[280px] flex justify-center py-10 group hover:bg-white "
+                >
+                  <div className="text-white text-center group-hover:text-black">
+                    <img
+                      src={item.icon}
+                      className="invert w-[60px] p-15 mx-auto mb-[10px] filter brightness-55 transition-all duration-300 ease-in-out group-hover:invert-0"
+                    />
+                    <span className="uppercase">{item.name}</span>
+                  </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 

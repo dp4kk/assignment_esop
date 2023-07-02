@@ -89,10 +89,13 @@ const Happenings = () => {
                   </div>
                 </div>
               </div>
-              <div className="relative mt-8 pt-8 border-t border-dashed border-gray-200 flex  transition-all duration-300 ease-in-out ">
+              <div className="relative mt-8 pt-8 border-t border-dashed border-gray-200 flex transition-all duration-300 ease-in-out ">
                 {carouselItems.slice(0, 3).map((items) => {
                   return (
-                    <div key={items.id} className="px-2 hover:cursor-pointer">
+                    <div
+                      key={items.id}
+                      className="px-2 hover:cursor-pointer transition-all duration-300 ease-in-out"
+                    >
                       <img src={items.image} alt="image" />
                       <p className="mb-4 mt-0 leading-7 hover:underline">
                         {items.name}

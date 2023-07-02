@@ -108,7 +108,7 @@ const Collaboration = () => {
             <div className="relative mb-8">
               <h1 className="text-white text-3xl">In Collaboration With</h1>
             </div>
-            <div className="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 gap-2">
+            <div className="grid grid-cols-3 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 gap-2">
               {collab.map((item) => {
                 return (
                   <div key={item.id} className="w-[111px] h-[60px]">

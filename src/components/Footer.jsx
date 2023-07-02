@@ -59,7 +59,7 @@ const Footer = () => {
           <img src={footerLogo} alt="logo" />
         </div>
         <div className="w-full px-12 mx-auto ">
-          <div className="grid md:grid-cols-4 sm:grid-cols-2 mx-12 my-4">
+          <div className="grid grid-cols-2 md:grid-cols-4 sm:grid-cols-2 mx-12 my-4">
             {footerItems.map((footerItem) => {
               return (
                 <div className="w-[310px]" key={footerItem.id}>

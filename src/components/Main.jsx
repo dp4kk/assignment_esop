@@ -57,7 +57,7 @@ const Main = () => {
 
 
   return (
-    <div className="h-screen relative">
+    <div className="md:h-screen relative">
       <div className="relative w-full overflow-hidden h-full">
         <div className="h-full  relative">
           <div className="relative">
@@ -69,10 +69,10 @@ const Main = () => {
             {showText && (
               <div className="w-[70%] absolute top-1/2 left-1/2 -translate-x-1/2 text-center transition-all duration-500 ease-linear delay-500 z-10 ">
                 <div className="animate-slide-up">
-                  <p className="text-white text-3xl">
+                  <p className="text-white text-base md:text-3xl">
                     Best School in New Gurgaon
                   </p>
-                  <p className="text-white text-6xl uppercase">
+                  <p className="text-white text-3xl md:text-6xl uppercase">
                     Imperial Heritage School
                   </p>
                 </div>
